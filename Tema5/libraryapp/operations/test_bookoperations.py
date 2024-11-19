@@ -1,5 +1,5 @@
-from libraryapp.domain.bookentity import get_id, get_titlu
-from libraryapp.operations.bookoperations import delete_book, add_book
+from Tema5.libraryapp.domain.bookentity import get_id, get_titlu
+from Tema5.libraryapp.operations.bookoperations import delete_book, add_book
 
 def test_add_book():
         all_books = []

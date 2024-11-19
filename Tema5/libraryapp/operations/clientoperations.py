@@ -1,5 +1,5 @@
-from libraryapp.domain.cliententity import get_id
-from libraryapp.domain.cliententity import create_client
+from Tema5.libraryapp.domain.cliententity import get_id
+from Tema5.libraryapp.domain.cliententity import create_client
 
 def add_client(all_clients, id, nume, cnp):
     """

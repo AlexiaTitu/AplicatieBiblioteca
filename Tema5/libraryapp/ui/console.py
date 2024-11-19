@@ -1,6 +1,6 @@
-from libraryapp.operations.bookoperations import add_book
-from libraryapp.operations.bookoperations import delete_book
-from libraryapp.operations.clientoperations import delete_client, add_client
+from Tema5.libraryapp.operations.bookoperations import add_book
+from Tema5.libraryapp.operations.bookoperations import delete_book
+from Tema5.libraryapp.operations.clientoperations import delete_client, add_client
 
 def ui_add_book(all_books):
     """

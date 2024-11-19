@@ -1,4 +1,4 @@
-from libraryapp.domain.cliententity import create_client, get_id, set_id, get_nume, set_nume, get_cnp, set_cnp
+from Tema5.libraryapp.domain.cliententity import create_client, get_id, set_id, get_nume, set_nume, get_cnp, set_cnp
 
 
 def test_create_client():

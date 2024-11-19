@@ -32,12 +32,12 @@ I3: F9, F10, F11
 
 
 
+from Tema5.libraryapp.operations.test_bookoperations import test_book_operations
+from Tema5.libraryapp.domain.test_bookentity import test_bookentity
+from Tema5.libraryapp.domain.test_cliententity import test_cliententity
+from Tema5.libraryapp.operations.test_clientoperations import test_client_operations
+from Tema5.libraryapp.ui.console import run_console
 
-from libraryapp.ui.console import run_console
-from libraryapp.operations.test_bookoperations import test_book_operations
-from libraryapp.domain.test_bookentity import test_bookentity
-from libraryapp.domain.test_cliententity import test_cliententity
-from libraryapp.operations.test_clientoperations import test_client_operations
 
 def main():
     run_console()

@@ -1,5 +1,5 @@
-from libraryapp.domain.cliententity import get_id, get_nume
-from libraryapp.operations.clientoperations import delete_client, add_client
+from Tema5.libraryapp.domain.cliententity import get_id, get_nume
+from Tema5.libraryapp.operations.clientoperations import delete_client, add_client
 
 def test_add_client():
         all_clients = []

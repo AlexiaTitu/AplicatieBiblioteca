@@ -1,5 +1,5 @@
-from libraryapp.domain.bookentity import get_id
-from libraryapp.domain.bookentity import create_book
+from Tema5.libraryapp.domain.bookentity import get_id
+from Tema5.libraryapp.domain.bookentity import create_book
 
 def add_book(all_books, id, titlu, descriere, autor):
     """

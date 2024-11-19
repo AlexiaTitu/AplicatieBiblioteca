@@ -4,7 +4,7 @@ def create_book(id, titlu, descriere, autor):
 
 def get_id(book):
     """
-    Functie care obtine id-ul unei anumite carti din lista
+    Functie care obtine id-ul unei anumite carti din lista asta
     """
     return book["id"]
 
